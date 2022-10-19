@@ -1,0 +1,40 @@
+.arrow-prev {
+  position: absolute;
+  left: 3%;
+  top: 55%;
+}
+
+.arrow-prev span {
+  font-size: 35px;
+  color: black;
+  width: 50px;
+  height: 50px;
+  display: block;
+  text-align: center;
+  line-height: 50px;
+  cursor: pointer;
+  transition: 0.7s;
+}
+.arrow-next {
+  position: absolute;
+  right: 3%;
+  top: 55%;
+}
+
+.arrow-next span {
+  font-size: 35px;
+  color: black;
+  width: 50px;
+  height: 50px;
+  display: block;
+  text-align: center;
+  line-height: 50px;
+  cursor: pointer;
+  transition: 0.7s;
+}
+.arrow-next span:hover {
+  color: skyblue;
+}
+.arrow-prev span:hover {
+  color: skyblue;
+}

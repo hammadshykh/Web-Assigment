@@ -1,0 +1,261 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+ul {
+  padding: 0;
+}
+.text-skyblue {
+  color: skyblue;
+}
+.text-blue {
+  color: blue;
+}
+.bg-blue {
+  background-color: blue;
+}
+.text-red {
+  color: red;
+}
+.text-brown {
+  color: brown;
+}
+.text-green {
+  color: green;
+}
+.section-header p {
+  font-size: 13px;
+}
+.nave-icons i {
+  background-color: white;
+  padding: 6px;
+  border-radius: 99px;
+  cursor: pointer;
+  margin: 0 6px;
+  font-size: 20px;
+}
+.nave-icons i:hover {
+  background-color: gray;
+  color: white;
+}
+.header-navbar ul {
+  display: flex;
+}
+.header-navbar ul li {
+  list-style: none;
+  margin: 0 20px;
+}
+.header-navbar ul li a {
+  text-decoration: none;
+  color: black;
+}
+.header-navbar ul li a span i {
+  font-size: 13px;
+  margin-left: 5px;
+  color: gray;
+}
+.header-navbar ul li a:hover {
+  color: red;
+}
+.active {
+  border-radius: 10px;
+  text-align: center;
+}
+
+.section-nvabar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-btn {
+  position: relative;
+}
+.nav-btn ul {
+  transition: 0.8s;
+  opacity: 0;
+  top: 5rem;
+}
+.nav-btn:hover ul {
+  z-index: 99;
+  opacity: 1;
+  top: 3.4rem;
+}
+.toggle-dropdown {
+  position: absolute;
+  z-index: -99;
+  width: 200px;
+  flex-direction: column;
+}
+.toggle-dropdown li {
+  padding: 10px 18px;
+  background-color: white;
+}
+.toggle-dropdown li:hover {
+  background-color: burlywood;
+}
+.toggle-dropdown li a {
+  font-weight: bold;
+}
+.toggle-dropdown li a:hover {
+  color: #ed687c;
+}
+.nav-link:hover {
+  background-color: white;
+  color: #ed687c;
+}
+
+.smit-logo {
+  padding-left: 20px;
+  width: 300px;
+}
+.smit-logo img {
+  width: 100%;
+  display: block;
+}
+
+.slider-image {
+  background: url("../image/slider2.png") no-repeat center/cover;
+  height: 75vh;
+  display: block;
+}
+.image-2 {
+  background: url("../image/slider1.png") no-repeat center/cover;
+}
+.image-3 {
+  background: url("../image/306856502_5029691153799523_3695609696872407750_n.webp")
+    no-repeat center/cover;
+}
+.image-4 {
+  background: url("../image/saylani-welfare\ \(1\).jpg") no-repeat center/cover;
+}
+
+.box {
+  background-color: white;
+  width: 330px;
+  height: 200px;
+  border-radius: 25px;
+  box-shadow: 1px 2px 12px black;
+}
+.box-inform {
+  padding-top: 20px;
+}
+
+.doing-content {
+  text-align: center;
+}
+.section-doing {
+  background-color: aliceblue;
+}
+.section-doing h2:after {
+  position: absolute;
+  margin-top: 20px;
+  left: 45%;
+  content: "";
+  display: block;
+  width: 150px;
+  height: 5px;
+  background-color: green;
+}
+.upcoming-content h3 {
+  font-weight: bold;
+  border-bottom: 2px solid #b9b8b8;
+}
+.upcoming-content p {
+  width: 80%;
+  line-height: 2;
+}
+.upcoming-content a {
+  padding: 5px;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.project {
+  border: 1px solid #c5c5c5;
+  width: 300px;
+  height: 70px;
+  border-radius: 20px;
+  margin: 10px;
+  background-color: #e5e5f6;
+  display: flex;
+  padding: 10px;
+}
+.project i {
+  font-size: 25px;
+  padding: 0 10px;
+}
+
+.section-image-gallery {
+  background-color: aliceblue;
+}
+
+.gallery-image img {
+  width: 100%;
+  display: block;
+}
+.gallery-image {
+  width: 270px;
+  display: flex;
+}
+
+.section-footer {
+  background-color: aliceblue;
+  text-align: center;
+}
+.section-footer {
+  text-align: start;
+}
+.rowss {
+  background-color: blue;
+}
+.rowss h1 {
+  text-shadow: 1px 1px 5px black;
+}
+.image-logo {
+  position: relative;
+  left: 45%;
+  width: 100px;
+  bottom: 10%;
+}
+.image-logo img {
+  width: 100%;
+  display: block;
+}
+.image-logo:after {
+  content: "";
+  display: block;
+  width: 150px;
+  height: 5px;
+  background-color: green;
+  margin-left: -20px;
+}
+
+@media screen and (max-width: 900px) {
+  .section-nvabar {
+    flex-direction: column;
+  }
+  .gallery-image {
+    flex-direction: column;
+  }
+  .doing-content .row .col-lg-4 .box {
+    margin: 10px 0;
+  }
+}
+@media screen and (max-width: 800px) {
+  .section-nvabar {
+    flex-direction: column;
+  }
+  .section-nvabar ul li {
+    margin: 0 5px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .section-nvabar {
+    flex-direction: column;
+  }
+}
